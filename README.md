@@ -4,7 +4,8 @@ I'm a web developer with a passion for designing creative solutions to complicat
 
 **Here are some of my [stats](https://github.com/anuraghazra/github-readme-stats)!**
 
-![gh stats](https://github-readme-stats.vercel.app/api?username=artulloss&count_private=true&show_icons=true&theme=algolia)
+![gh stats](./profile/stats.svg)
 
+![top langs](./profile/top-langs.svg)
 
-![wt stats](https://github-readme-stats.vercel.app/api/wakatime?username=artulloss&theme=algolia&custom_title=Weekly%20Stats)
+![wt stats](./profile/wakatime.svg)
