@@ -20,15 +20,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=5&theme=algolia
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-
       - name: Generate wakatime card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -36,8 +27,6 @@ jobs:
           options: username=artulloss&theme=algolia&custom_title=Weekly%20Stats
           token: ${{ secrets.GITHUB_TOKEN }}
           path: profile/wakatime.svg
-
-
 
       - name: Commit cards
         run: |
